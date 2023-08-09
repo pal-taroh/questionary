@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>アンケートフォーム</title>
+</head>
+<body>
+    <h2>アンケートフォーム</h2>
+    <form action="process.php" method="POST">
+        <label for="storeName">店舗名:</label>
+        <input type="text" id="storeName" name="storeName" required><br><br>
+        
+        <label for="address">住所:</label>
+        <input type="text" id="address" name="address" required><br><br>
+        
+        <label for="phoneNumber">電話番号:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" required><br><br>
+        
+        <label for="remarks">備考:</label><br>
+        <textarea id="remarks" name="remarks" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="送信">
+    </form>
+</body>
+</html>
